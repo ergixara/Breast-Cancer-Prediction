@@ -18,10 +18,10 @@ The goal was to build a model that not only achieves high accuracy but also mini
 I evaluated the models using **Accuracy**, **Precision**, and **Recall** on a dedicated Test Set.
 
 | Model | Accuracy | Recall (Malignant) |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **Logistic Regression** | **97.36%** | **0.95** |
-| Random Forest | 96.49% | 0.93 | 
-| Decision Tree | 95.61% | 0.91 | 
+| Random Forest | 96.49% | 0.93 |
+| Decision Tree | 95.61% | 0.91 |
 
 **Key Finding:**
 While Random Forest is usually powerful, **Logistic Regression** performed the best on this dataset. It achieved the highest recall (95%), meaning it successfully identified 95% of the malignant cases in the test set, making it the safest model for medical diagnosis in this experiment.
