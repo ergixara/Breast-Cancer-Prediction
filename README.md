@@ -17,7 +17,7 @@ The goal was to build a model that not only achieves high accuracy but also mini
 ## 📊 Results
 I evaluated the models using **Accuracy**, **Precision**, and **Recall** on a dedicated Test Set.
 
-| Model | Accuracy | Recall (Malignant) | Verdict |
+| Model | Accuracy | Recall (Malignant) |
 | :--- | :--- | :--- | :--- |
 | **Logistic Regression** | **97.36%** | **0.95** |
 | Random Forest | 96.49% | 0.93 | 
